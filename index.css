@@ -50,13 +50,13 @@ body{
 }
 
 .imgbox{
-    width: 200px;
-    border-radius: 5px;
-    max-height: 0;
-    overflow: hidden;
-}
+    margin-top: 20px;
+    
+    justify-content: center;
+  }
+
 .imgbox img{
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
 }
 
@@ -64,6 +64,8 @@ body{
     max-height: 300px;
     margin: 10px auto;
     border: 1px solid #d1d1d1;
+    display: flex;
+      
 }
 .error{
     animation: shake 0.1s linear 10;
